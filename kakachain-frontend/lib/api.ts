@@ -16,7 +16,7 @@ export const getCurrentPrompt = async () => {
 let config = {
   method: 'get',
   maxBodyLength: Infinity,
-  url: "http://localhost:3000" + "/current_prompt",
+  url: API_URL + "/current_prompt",
   headers: { }
 };
 
@@ -30,7 +30,7 @@ export const getCurrentBlock = async () => {
 let config = {
   method: 'get',
   maxBodyLength: Infinity,
-  url: "http://localhost:3000" + "/current_block",
+  url: API_URL + "/current_block",
   headers: { }
 };
 
@@ -42,7 +42,7 @@ export const getTotatMints = async () => {
 let config = {
   method: 'get',
   maxBodyLength: Infinity,
-  url: "http://localhost:3000" + "/total_mints",
+  url: API_URL + "/total_mints",
   headers: { }
 };
 
@@ -67,7 +67,7 @@ export const getMints = async () => {
 let config = {
   method: 'get',
   maxBodyLength: Infinity,
-  url: "http://localhost:3000" + "/list_mints",
+  url: API_URL + "/list_mints",
   headers: { }
 };
 

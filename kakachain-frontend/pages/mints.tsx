@@ -33,6 +33,7 @@ export default function Home() {
     let hasChanged = false;
     if(recentMints.length !== 0){
     Object.keys(rm).forEach((key)=>{
+      //@ts-ignore
       if(rm[key].prompt !== recentMints[key].prompt){
         hasChanged = true;
       }
