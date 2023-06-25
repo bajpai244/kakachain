@@ -29,7 +29,6 @@ There are memes everywhere about it, and recently there was a lot of interest in
 This is where the idea originated, how about we could run a completly automated app-chain, via Madara, where random Kakarot <> Madara themed NFTs are generated. This would be an interesting way to celebrate this fusion and at the same time a great way to explore an app-chain on Madara.
 
 ## Learnings from making Kakachain
------
 
 Modular blockchains will open up new world of interesting blockchain applications, I can already see so many more things I can do on this custom app-chain! for example:
 - Allow only one erc721 to exits on this chain
@@ -38,3 +37,19 @@ Modular blockchains will open up new world of interesting blockchain application
 - cross chain mint, allow someone to mint on Kakachain by sending a message from other chain, and much more!
 
 I think projects like Madara, Celestia, Avail, etc are going to bring a new wave of interesting interoperable blockchain application! Let's see 🤞
+
+## Appendix
+
+### You can hack on top of Kakachain!
+
+Yes, because at the end of the day, it is a starknet sequencer, you can deploy your contracts to it, and use it like any normal starkent sequencer. Feel free to checkout the starknet JSON RPC spec to playaround!
+
+### How long will Kakachain run?
+
+It has around ~210 prompts, so has enough prompts for 17.5 hours { 1 prompt, every 5 min }! **But there is a secret endpoint by which you can add more prompts! Yes!!!!!**
+
+If you want to add more prompts, reach out to me on twitter and I can give you the endpoint with the API key!
+
+### Screenshot of explorer 
+
+<img src="./assets//screenshot.png" height="500px" />
