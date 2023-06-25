@@ -57,7 +57,7 @@ export const getRecent6Mints = async () => {
         if(mints.length < 6){
             return mints;
         }
-        return mints.slice(mints.length-6, mints.length);
+        return mints.slice(0, 6);
     }
 
     return [];
