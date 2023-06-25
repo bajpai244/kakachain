@@ -25,7 +25,7 @@ export default function Home() {
     
     }, 5000);
 
-    // every 2 minutes
+    // every 5 minutes
     setInterval(async ()=>{
 
     // TODO: Put in a different interval
@@ -46,7 +46,7 @@ export default function Home() {
     setRecentMints(rm);
   }
 
-    },120000)
+    },300000)
 
   });
 
