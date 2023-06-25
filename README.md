@@ -4,8 +4,8 @@ Kakachain is a project made during the pragma oracle hackathon.
 
 > It is an independent app-chain laucnhed via Madara. There is only one ERC721 token on the chain, and new mints are produced every 5 minutes by generating Kakarot<>Madara themed prompts via GPT, rendering them via Midjourney, and then minting them on Kakachain.
 
-- Chain Explorer 🔎: 
-- RPC { follows starknet spec } 📡:
+- Chain Explorer 🔎: https://kakachain.vercel.app/
+- RPC { follows starknet spec } 📡 http://167.172.70.105:9944:
 
 <img src="./assets/process.png" width="500px" />
 
