@@ -8,22 +8,12 @@ export default function Home() {
   const [headerData, setHeaderData] = useState({currentPrompt:"loading", currentBlock:"loading", totalMints:"loading"});
   const [recentMints, setRecentMints] = useState([]);
 
-  useEffect(()=>{
-    
-    getHeaderData().then((d)=>{
-      setHeaderData(d)
-    })
-
-    getRecent6Mints().then((d)=>{
-      setRecentMints(d);
-    })
-
-    
+  //setup polls
     const interval = setInterval(async ()=>{
     const d = await getHeaderData();
     setHeaderData(d);
     
-    }, 5000);
+    }, 10000);
 
     // every 2 minutes
     setInterval(async ()=>{
@@ -48,7 +38,19 @@ export default function Home() {
 
     },120000)
 
-  });
+
+  useEffect(()=>{
+    
+    getHeaderData().then((d)=>{
+      setHeaderData(d)
+    })
+
+    getRecent6Mints().then((d)=>{
+      setRecentMints(d);
+    })
+
+    
+  }, []);
 
   return (
     <>
